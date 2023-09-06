@@ -63,12 +63,11 @@ a{
 }
 
 
-.img-cards{
+.img{
   width: 100%;
   padding-right: 15px;
-
-  
 }
+
 
 .heart{
   display: block;
@@ -128,4 +127,12 @@ a{
 .old-price{
   text-decoration-line: line-through;
   font-weight: bold;
+}
+
+.cards1:hover{
+  content: url(../img/1b.webp);
+}
+
+.cards2:hover{
+  content: url(../img/2b.webp);
 }
