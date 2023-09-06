@@ -130,24 +130,8 @@ a{
   font-weight: bold;
 }
 
-.img-container{
-  position: relative;
-}
-
-.top-img{
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-}
-
-.top-img:hover{
-  opacity: 1;
-}
-
-
 /* non ho trovato un altro modo per :hover  */
-/* .cards1:hover{
+.cards1:hover{
   content: url(../img/1b.webp);
 }
 
@@ -169,4 +153,4 @@ a{
 
 .cards6:hover{
   content: url(../img/6b.webp);
-} */
+}
