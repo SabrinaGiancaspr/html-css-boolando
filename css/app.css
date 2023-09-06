@@ -64,12 +64,27 @@ a{
 .img-cards{
   width: 100%;
   padding-right: 15px;
-  padding-bottom: 60px;
+
   position: relative;
 }
 
 .heart{
-position: absolute;
-bottom: 0;
-left: 0;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.description{
+  font-weight: bold;
+}
+
+.current-price{
+  color: red;
+  font-weight: bold;
+}
+
+.old-price{
+  text-decoration-line: line-through;
+  font-weight: bold;
 }
