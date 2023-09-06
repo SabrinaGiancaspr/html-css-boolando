@@ -13,10 +13,8 @@
   background-color: #FF6900;
 }
 
-.row .justify-center{
+.row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .col-4{
