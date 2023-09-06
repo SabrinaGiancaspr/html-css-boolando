@@ -54,16 +54,12 @@ a{
   margin: 40px 300px 40px 300px;
 }
 
-.row-main-up{
+.row-main{
   display: flex;
   flex-wrap: wrap;
 }
 
-.row-main-down{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 70px;
-}
+
 
 .img-cards{
   width: 100%;
