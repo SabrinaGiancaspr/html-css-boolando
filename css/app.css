@@ -52,8 +52,9 @@ a{
 }
 
 .card-container{
-  margin: 40px 300px 40px 300px;
-  
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px 100px 30px 100px;
 }
 
 .row-main{
@@ -129,10 +130,26 @@ a{
   font-weight: bold;
 }
 
-.cards1:hover{
+/* .cards1:hover{
   content: url(../img/1b.webp);
 }
 
 .cards2:hover{
   content: url(../img/2b.webp);
 }
+
+.cards3:hover{
+  content: url(../img/3b.webp);
+}
+
+.cards4:hover{
+  content: url(../img/4b.webp);
+}
+
+.cards5:hover{
+  content: url(../img/5b.webp);
+}
+
+.cards6:hover{
+  content: url(../img/6b.webp);
+} */
