@@ -21,6 +21,8 @@
 
 .col-4{
   flex-basis: calc((100% / 12)* 4);
+  border: 1px solid black;
+  min-height: 100px;
 }
 
 /* uomo donna bambino  */
@@ -45,3 +47,28 @@ a{
 }
 
 /* main-page  */
+
+.main-page{
+  width: 100%;
+}
+
+.card-container{
+  margin: 40px 300px 40px 300px;
+  min-height:  500px;
+  border: 1px solid black;
+}
+
+.row-main-up{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-main-down{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.img-first{
+  width: 100%;
+}
