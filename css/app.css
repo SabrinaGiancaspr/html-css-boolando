@@ -21,6 +21,7 @@
 
 .col-4{
   flex-basis: calc((100% / 12)* 4);
+  position: relative;
 }
 
 /* uomo donna bambino  */
@@ -58,6 +59,7 @@ a{
 .row-main{
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 
@@ -65,16 +67,36 @@ a{
   width: 100%;
   padding-right: 15px;
 
-  position: relative;
+  
 }
 
 .heart{
   display: block;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  text-align: center;
 }
 
+.sale{
+  display: block;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 50px;
+  background-color: red;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.green{
+
+}
 .description{
   font-weight: bold;
 }
