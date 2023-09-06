@@ -21,8 +21,6 @@
 
 .col-4{
   flex-basis: calc((100% / 12)* 4);
-  border: 1px solid black;
-  min-height: 100px;
 }
 
 /* uomo donna bambino  */
@@ -54,8 +52,6 @@ a{
 
 .card-container{
   margin: 40px 300px 40px 300px;
-  min-height:  500px;
-  border: 1px solid black;
 }
 
 .row-main-up{
@@ -69,6 +65,7 @@ a{
   margin-top: 70px;
 }
 
-.img-first{
+.img-cards{
   width: 100%;
+  padding-right: 15px;
 }
