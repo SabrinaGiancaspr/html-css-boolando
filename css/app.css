@@ -9,23 +9,26 @@
 }
 
 .nav-container{
-  max-height: 200px;
   border: 1px solid black;
-  margin: 0 auto;
   background-color: #FF6900;
 }
 
-.row{
+.row .justify-center{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .col-4{
   flex-basis: calc((100% / 12)* 4);
-  padding: 10px;
 }
 
 .category{
   text-decoration: none;
   color: white;
   padding-left: 200px;
+}
+
+.logo img{
+  max-width: 100px;
 }
