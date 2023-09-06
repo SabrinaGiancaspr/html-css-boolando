@@ -11,8 +11,8 @@
 .nav-container{
   max-height: 200px;
   border: 1px solid black;
-  padding: 18px;
   margin: 0 auto;
+  background-color: #FF6900;
 }
 
 .row{
@@ -23,4 +23,9 @@
   flex-basis: calc((100% / 12)* 4);
   border: 1px solid black;
   padding: 10px;
+}
+
+.category{
+  text-decoration: none;
+  color: white;
 }
