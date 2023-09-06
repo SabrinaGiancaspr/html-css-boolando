@@ -52,6 +52,7 @@ a{
 
 .card-container{
   margin: 40px 300px 40px 300px;
+  
 }
 
 .row-main{
@@ -63,5 +64,12 @@ a{
 .img-cards{
   width: 100%;
   padding-right: 15px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.heart{
+position: absolute;
+bottom: 0;
+left: 0;
 }
