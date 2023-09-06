@@ -130,7 +130,8 @@ a{
   font-weight: bold;
 }
 
-/* .cards1:hover{
+/* non ho trovato un altro modo per :hover  */
+.cards1:hover{
   content: url(../img/1b.webp);
 }
 
@@ -152,4 +153,4 @@ a{
 
 .cards6:hover{
   content: url(../img/6b.webp);
-} */
+}
