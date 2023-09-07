@@ -13,6 +13,11 @@
 .nav-container{
   background-color: #FF6900;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
 }
 
 .row {
@@ -21,7 +26,7 @@
 
 .col-4{
   flex-basis: calc((100% / 12)* 4);
-  position: relative;
+ 
 }
 
 /* uomo donna bambino  */
@@ -49,18 +54,24 @@ a{
 
 .main-page{
   width: 100%;
+  padding-top: 50px;
 }
 
+
 .card-container{
+  position: relative;
+
+}
+
+.container{
   max-width: 100%;
   margin: 0 auto;
-  padding: 30px 100px 30px 100px;
 }
 
 .row-main{
   display: flex;
   flex-wrap: wrap;
-  
+  padding: 30px 100px 30px 100px;
 }
 
 
@@ -85,7 +96,7 @@ a{
 .sale{
   display: block;
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   left: 0;
   width: 50px;
   background-color: red;
@@ -97,7 +108,7 @@ a{
 .green{
   display: block;
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   left: 60px;
   width: 100px;
   background-color: green;
@@ -108,7 +119,7 @@ a{
 .green-solo{
   display: block;
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   left: 0;
   width: 100px;
   background-color: green;
@@ -124,6 +135,7 @@ a{
   color: red;
   font-weight: bold;
 }
+
 
 .old-price{
   text-decoration-line: line-through;
