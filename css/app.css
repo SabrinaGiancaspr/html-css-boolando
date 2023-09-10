@@ -75,11 +75,20 @@ a{
 }
 
 
-.img{
+img{
   width: 100%;
   padding-right: 15px;
 }
 
+.first-img.img-hidden{
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.card-container:hover .first-img.img-hidden{
+  opacity: 1;
+}
 
 .heart{
   display: block;
@@ -142,27 +151,3 @@ a{
   font-weight: bold;
 }
 
-/* non ho trovato un altro modo per :hover  */
-.cards1:hover{
-  content: url(../img/1b.webp);
-}
-
-.cards2:hover{
-  content: url(../img/2b.webp);
-}
-
-.cards3:hover{
-  content: url(../img/3b.webp);
-}
-
-.cards4:hover{
-  content: url(../img/4b.webp);
-}
-
-.cards5:hover{
-  content: url(../img/5b.webp);
-}
-
-.cards6:hover{
-  content: url(../img/6b.webp);
-}
